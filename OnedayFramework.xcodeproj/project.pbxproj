@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		7F525289253ECFED00973835 /* OnedayFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F525287253ECFED00973835 /* OnedayFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F525290253ED12F00973835 /* CustomRoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F52528F253ED12F00973835 /* CustomRoundedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7F525284253ECFED00973835 /* OnedayFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OnedayFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F525287253ECFED00973835 /* OnedayFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnedayFramework.h; sourceTree = "<group>"; };
 		7F525288253ECFED00973835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F52528F253ED12F00973835 /* CustomRoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRoundedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				7F525287253ECFED00973835 /* OnedayFramework.h */,
 				7F525288253ECFED00973835 /* Info.plist */,
+				7F52528F253ED12F00973835 /* CustomRoundedView.swift */,
 			);
 			path = OnedayFramework;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					7F525283253ECFED00973835 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 				};
 			};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F525290253ED12F00973835 /* CustomRoundedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +265,7 @@
 		7F52528D253ECFED00973835 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Z5A6SFMQ64;
@@ -276,6 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.inatech.OnedayFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +291,7 @@
 		7F52528E253ECFED00973835 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Z5A6SFMQ64;

@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-
+  # please use new version and new configuration
   spec.name         = "OnedayFramework"
   spec.version      = "0.0.1"
   spec.summary      = "Custom rounded corner for your UIView component added dependency."
